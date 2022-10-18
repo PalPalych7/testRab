@@ -1,1 +1,6 @@
 https://habr.com/ru/post/578744/?ysclid=l9en5qrpuv871403006
+docker run --name my_pg-13.3 -p 5432:5432 -e POSTGRES_USER=palych -e POSTGRES_PASSWORD=palych_p1 -e POSTGRES_DB=maindb -d postgres:13.3
+
+psql -U palych -d palych_p1
+
+

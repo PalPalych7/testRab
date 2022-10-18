@@ -1,4 +1,4 @@
-xpackage main // Имя текущего пакета
+package main // Имя текущего пакета
 import (
 	"fmt"
 	"log"
